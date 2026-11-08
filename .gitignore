@@ -1,0 +1,56 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Data
+data/raw/
+data/processed/
+*.csv
+*.parquet
+
+# ML artifacts (weights, checkpoints, logs)
+ml/artifacts/
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.ckpt
+runs/
+wandb/
+mlruns/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Frontend
+node_modules/
+frontend/dist/
+frontend/build/
+
+# Database and uploads 
+*.sqlite3
+*.db
+uploads/
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Security
+security/pentest-report*
