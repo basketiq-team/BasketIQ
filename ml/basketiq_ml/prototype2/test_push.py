@@ -1,0 +1,1 @@
+print("Test de push BasketIQ réussi !")
